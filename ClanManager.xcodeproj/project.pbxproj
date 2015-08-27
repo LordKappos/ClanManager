@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D235A4D31B726B4600AA65E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D235A4D21B726B4600AA65E7 /* main.m */; };
+		D235A4D61B726B4600AA65E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D235A4D51B726B4600AA65E7 /* AppDelegate.m */; };
+		D235A4D91B726B4600AA65E7 /* CreateNewAccountView.m in Sources */ = {isa = PBXBuildFile; fileRef = D235A4D81B726B4600AA65E7 /* CreateNewAccountView.m */; };
+		D235A4DC1B726B4600AA65E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D235A4DA1B726B4600AA65E7 /* Main.storyboard */; };
+		D235A4DE1B726B4600AA65E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D235A4DD1B726B4600AA65E7 /* Images.xcassets */; };
+		D235A4E11B726B4600AA65E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D235A4DF1B726B4600AA65E7 /* LaunchScreen.xib */; };
+		D235A4ED1B726B4600AA65E7 /* ClanManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D235A4EC1B726B4600AA65E7 /* ClanManagerTests.m */; };
+		D25D094C1B7AA34B0066F41F /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D094B1B7AA34B0066F41F /* TabBarController.m */; };
+		D25D094F1B7AA9C90066F41F /* PlayerHomeProfilePage.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D094E1B7AA9C90066F41F /* PlayerHomeProfilePage.m */; };
+		D25D09521B7AABD70066F41F /* EventTableViewTab.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D09511B7AABD70066F41F /* EventTableViewTab.m */; };
+		D25D09551B7AABF30066F41F /* MembersTableViewTab.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D09541B7AABF30066F41F /* MembersTableViewTab.m */; };
+		D25D09581B7AAC170066F41F /* ClanTableViewTab.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D09571B7AAC170066F41F /* ClanTableViewTab.m */; };
+		D25D095C1B7AB2260066F41F /* SearchTableViewTab.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D095B1B7AB2260066F41F /* SearchTableViewTab.m */; };
+		D25D09601B7AB3E50066F41F /* EventDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D095F1B7AB3E50066F41F /* EventDetailView.m */; };
+		D25D09631B7AB4030066F41F /* EventSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D09621B7AB4030066F41F /* EventSettingsView.m */; };
+		D25D09661B7AB4170066F41F /* MemberDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D09651B7AB4170066F41F /* MemberDetailView.m */; };
+		D25D09691B7AB42F0066F41F /* ClanDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D09681B7AB42F0066F41F /* ClanDetailView.m */; };
+		D25D096C1B7AB4440066F41F /* ClanSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D096B1B7AB4440066F41F /* ClanSettingsView.m */; };
+		D25D096F1B7AB4630066F41F /* PlayerProfileSettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D096E1B7AB4630066F41F /* PlayerProfileSettingsView.m */; };
+		D25D09741B7AB66E0066F41F /* PasswordRecoveryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D09731B7AB66E0066F41F /* PasswordRecoveryView.m */; };
+		D25D09771B7AB6F90066F41F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25D09761B7AB6F90066F41F /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D235A4E71B726B4600AA65E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D235A4C51B726B4600AA65E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D235A4CC1B726B4600AA65E7;
+			remoteInfo = ClanManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D235A4CD1B726B4600AA65E7 /* ClanManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClanManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D235A4D11B726B4600AA65E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D235A4D21B726B4600AA65E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D235A4D41B726B4600AA65E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D235A4D51B726B4600AA65E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D235A4D71B726B4600AA65E7 /* CreateNewAccountView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateNewAccountView.h; sourceTree = "<group>"; };
+		D235A4D81B726B4600AA65E7 /* CreateNewAccountView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateNewAccountView.m; sourceTree = "<group>"; };
+		D235A4DB1B726B4600AA65E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D235A4DD1B726B4600AA65E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D235A4E01B726B4600AA65E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D235A4E61B726B4600AA65E7 /* ClanManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClanManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D235A4EB1B726B4600AA65E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D235A4EC1B726B4600AA65E7 /* ClanManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClanManagerTests.m; sourceTree = "<group>"; };
+		D25D094A1B7AA34B0066F41F /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		D25D094B1B7AA34B0066F41F /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		D25D094D1B7AA9C90066F41F /* PlayerHomeProfilePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerHomeProfilePage.h; sourceTree = "<group>"; };
+		D25D094E1B7AA9C90066F41F /* PlayerHomeProfilePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerHomeProfilePage.m; sourceTree = "<group>"; };
+		D25D09501B7AABD70066F41F /* EventTableViewTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewTab.h; sourceTree = "<group>"; };
+		D25D09511B7AABD70066F41F /* EventTableViewTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewTab.m; sourceTree = "<group>"; };
+		D25D09531B7AABF30066F41F /* MembersTableViewTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersTableViewTab.h; sourceTree = "<group>"; };
+		D25D09541B7AABF30066F41F /* MembersTableViewTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MembersTableViewTab.m; sourceTree = "<group>"; };
+		D25D09561B7AAC170066F41F /* ClanTableViewTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClanTableViewTab.h; sourceTree = "<group>"; };
+		D25D09571B7AAC170066F41F /* ClanTableViewTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClanTableViewTab.m; sourceTree = "<group>"; };
+		D25D095A1B7AB2260066F41F /* SearchTableViewTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewTab.h; sourceTree = "<group>"; };
+		D25D095B1B7AB2260066F41F /* SearchTableViewTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewTab.m; sourceTree = "<group>"; };
+		D25D095E1B7AB3E50066F41F /* EventDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailView.h; sourceTree = "<group>"; };
+		D25D095F1B7AB3E50066F41F /* EventDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailView.m; sourceTree = "<group>"; };
+		D25D09611B7AB4030066F41F /* EventSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSettingsView.h; sourceTree = "<group>"; };
+		D25D09621B7AB4030066F41F /* EventSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventSettingsView.m; sourceTree = "<group>"; };
+		D25D09641B7AB4170066F41F /* MemberDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberDetailView.h; sourceTree = "<group>"; };
+		D25D09651B7AB4170066F41F /* MemberDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberDetailView.m; sourceTree = "<group>"; };
+		D25D09671B7AB42F0066F41F /* ClanDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClanDetailView.h; sourceTree = "<group>"; };
+		D25D09681B7AB42F0066F41F /* ClanDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClanDetailView.m; sourceTree = "<group>"; };
+		D25D096A1B7AB4440066F41F /* ClanSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClanSettingsView.h; sourceTree = "<group>"; };
+		D25D096B1B7AB4440066F41F /* ClanSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClanSettingsView.m; sourceTree = "<group>"; };
+		D25D096D1B7AB4630066F41F /* PlayerProfileSettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerProfileSettingsView.h; sourceTree = "<group>"; };
+		D25D096E1B7AB4630066F41F /* PlayerProfileSettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerProfileSettingsView.m; sourceTree = "<group>"; };
+		D25D09721B7AB66E0066F41F /* PasswordRecoveryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordRecoveryView.h; sourceTree = "<group>"; };
+		D25D09731B7AB66E0066F41F /* PasswordRecoveryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordRecoveryView.m; sourceTree = "<group>"; };
+		D25D09751B7AB6F90066F41F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D25D09761B7AB6F90066F41F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D235A4CA1B726B4600AA65E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D235A4E31B726B4600AA65E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D235A4C41B726B4600AA65E7 = {
+			isa = PBXGroup;
+			children = (
+				D235A4CF1B726B4600AA65E7 /* ClanManager */,
+				D235A4E91B726B4600AA65E7 /* ClanManagerTests */,
+				D235A4CE1B726B4600AA65E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D235A4CE1B726B4600AA65E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D235A4CD1B726B4600AA65E7 /* ClanManager.app */,
+				D235A4E61B726B4600AA65E7 /* ClanManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D235A4CF1B726B4600AA65E7 /* ClanManager */ = {
+			isa = PBXGroup;
+			children = (
+				D235A4D41B726B4600AA65E7 /* AppDelegate.h */,
+				D235A4D51B726B4600AA65E7 /* AppDelegate.m */,
+				D25D094A1B7AA34B0066F41F /* TabBarController.h */,
+				D25D094B1B7AA34B0066F41F /* TabBarController.m */,
+				D235A4DA1B726B4600AA65E7 /* Main.storyboard */,
+				D25D095D1B7AB2BE0066F41F /* AccountLoginCreationViews */,
+				D25D09591B7AAC4B0066F41F /* TabBarViews */,
+				D25D09701B7AB4700066F41F /* ObjectDetailViews */,
+				D25D09711B7AB4B30066F41F /* ObjectSettingsViews */,
+				D235A4DD1B726B4600AA65E7 /* Images.xcassets */,
+				D235A4DF1B726B4600AA65E7 /* LaunchScreen.xib */,
+				D235A4D01B726B4600AA65E7 /* Supporting Files */,
+			);
+			path = ClanManager;
+			sourceTree = "<group>";
+		};
+		D235A4D01B726B4600AA65E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D235A4D11B726B4600AA65E7 /* Info.plist */,
+				D235A4D21B726B4600AA65E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D235A4E91B726B4600AA65E7 /* ClanManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D235A4EC1B726B4600AA65E7 /* ClanManagerTests.m */,
+				D235A4EA1B726B4600AA65E7 /* Supporting Files */,
+			);
+			path = ClanManagerTests;
+			sourceTree = "<group>";
+		};
+		D235A4EA1B726B4600AA65E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D235A4EB1B726B4600AA65E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D25D09591B7AAC4B0066F41F /* TabBarViews */ = {
+			isa = PBXGroup;
+			children = (
+				D25D094D1B7AA9C90066F41F /* PlayerHomeProfilePage.h */,
+				D25D094E1B7AA9C90066F41F /* PlayerHomeProfilePage.m */,
+				D25D09561B7AAC170066F41F /* ClanTableViewTab.h */,
+				D25D09571B7AAC170066F41F /* ClanTableViewTab.m */,
+				D25D09531B7AABF30066F41F /* MembersTableViewTab.h */,
+				D25D09541B7AABF30066F41F /* MembersTableViewTab.m */,
+				D25D09501B7AABD70066F41F /* EventTableViewTab.h */,
+				D25D09511B7AABD70066F41F /* EventTableViewTab.m */,
+				D25D095A1B7AB2260066F41F /* SearchTableViewTab.h */,
+				D25D095B1B7AB2260066F41F /* SearchTableViewTab.m */,
+			);
+			name = TabBarViews;
+			sourceTree = "<group>";
+		};
+		D25D095D1B7AB2BE0066F41F /* AccountLoginCreationViews */ = {
+			isa = PBXGroup;
+			children = (
+				D235A4D71B726B4600AA65E7 /* CreateNewAccountView.h */,
+				D235A4D81B726B4600AA65E7 /* CreateNewAccountView.m */,
+				D25D09751B7AB6F90066F41F /* LoginViewController.h */,
+				D25D09761B7AB6F90066F41F /* LoginViewController.m */,
+				D25D09721B7AB66E0066F41F /* PasswordRecoveryView.h */,
+				D25D09731B7AB66E0066F41F /* PasswordRecoveryView.m */,
+			);
+			name = AccountLoginCreationViews;
+			sourceTree = "<group>";
+		};
+		D25D09701B7AB4700066F41F /* ObjectDetailViews */ = {
+			isa = PBXGroup;
+			children = (
+				D25D09671B7AB42F0066F41F /* ClanDetailView.h */,
+				D25D09681B7AB42F0066F41F /* ClanDetailView.m */,
+				D25D09641B7AB4170066F41F /* MemberDetailView.h */,
+				D25D09651B7AB4170066F41F /* MemberDetailView.m */,
+				D25D095E1B7AB3E50066F41F /* EventDetailView.h */,
+				D25D095F1B7AB3E50066F41F /* EventDetailView.m */,
+			);
+			name = ObjectDetailViews;
+			sourceTree = "<group>";
+		};
+		D25D09711B7AB4B30066F41F /* ObjectSettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				D25D096D1B7AB4630066F41F /* PlayerProfileSettingsView.h */,
+				D25D096E1B7AB4630066F41F /* PlayerProfileSettingsView.m */,
+				D25D096A1B7AB4440066F41F /* ClanSettingsView.h */,
+				D25D096B1B7AB4440066F41F /* ClanSettingsView.m */,
+				D25D09611B7AB4030066F41F /* EventSettingsView.h */,
+				D25D09621B7AB4030066F41F /* EventSettingsView.m */,
+			);
+			name = ObjectSettingsViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D235A4CC1B726B4600AA65E7 /* ClanManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D235A4F01B726B4600AA65E7 /* Build configuration list for PBXNativeTarget "ClanManager" */;
+			buildPhases = (
+				D235A4C91B726B4600AA65E7 /* Sources */,
+				D235A4CA1B726B4600AA65E7 /* Frameworks */,
+				D235A4CB1B726B4600AA65E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClanManager;
+			productName = ClanManager;
+			productReference = D235A4CD1B726B4600AA65E7 /* ClanManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D235A4E51B726B4600AA65E7 /* ClanManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D235A4F31B726B4600AA65E7 /* Build configuration list for PBXNativeTarget "ClanManagerTests" */;
+			buildPhases = (
+				D235A4E21B726B4600AA65E7 /* Sources */,
+				D235A4E31B726B4600AA65E7 /* Frameworks */,
+				D235A4E41B726B4600AA65E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D235A4E81B726B4600AA65E7 /* PBXTargetDependency */,
+			);
+			name = ClanManagerTests;
+			productName = ClanManagerTests;
+			productReference = D235A4E61B726B4600AA65E7 /* ClanManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D235A4C51B726B4600AA65E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Devmountain;
+				TargetAttributes = {
+					D235A4CC1B726B4600AA65E7 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2Y46SW9SR2;
+					};
+					D235A4E51B726B4600AA65E7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D235A4CC1B726B4600AA65E7;
+					};
+				};
+			};
+			buildConfigurationList = D235A4C81B726B4600AA65E7 /* Build configuration list for PBXProject "ClanManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D235A4C41B726B4600AA65E7;
+			productRefGroup = D235A4CE1B726B4600AA65E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D235A4CC1B726B4600AA65E7 /* ClanManager */,
+				D235A4E51B726B4600AA65E7 /* ClanManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D235A4CB1B726B4600AA65E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D235A4DC1B726B4600AA65E7 /* Main.storyboard in Resources */,
+				D235A4E11B726B4600AA65E7 /* LaunchScreen.xib in Resources */,
+				D235A4DE1B726B4600AA65E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D235A4E41B726B4600AA65E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D235A4C91B726B4600AA65E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25D09691B7AB42F0066F41F /* ClanDetailView.m in Sources */,
+				D25D095C1B7AB2260066F41F /* SearchTableViewTab.m in Sources */,
+				D25D09631B7AB4030066F41F /* EventSettingsView.m in Sources */,
+				D25D096F1B7AB4630066F41F /* PlayerProfileSettingsView.m in Sources */,
+				D235A4D91B726B4600AA65E7 /* CreateNewAccountView.m in Sources */,
+				D25D09601B7AB3E50066F41F /* EventDetailView.m in Sources */,
+				D25D096C1B7AB4440066F41F /* ClanSettingsView.m in Sources */,
+				D25D09771B7AB6F90066F41F /* LoginViewController.m in Sources */,
+				D25D094C1B7AA34B0066F41F /* TabBarController.m in Sources */,
+				D25D09551B7AABF30066F41F /* MembersTableViewTab.m in Sources */,
+				D25D094F1B7AA9C90066F41F /* PlayerHomeProfilePage.m in Sources */,
+				D235A4D61B726B4600AA65E7 /* AppDelegate.m in Sources */,
+				D25D09581B7AAC170066F41F /* ClanTableViewTab.m in Sources */,
+				D25D09521B7AABD70066F41F /* EventTableViewTab.m in Sources */,
+				D235A4D31B726B4600AA65E7 /* main.m in Sources */,
+				D25D09741B7AB66E0066F41F /* PasswordRecoveryView.m in Sources */,
+				D25D09661B7AB4170066F41F /* MemberDetailView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D235A4E21B726B4600AA65E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D235A4ED1B726B4600AA65E7 /* ClanManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D235A4E81B726B4600AA65E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D235A4CC1B726B4600AA65E7 /* ClanManager */;
+			targetProxy = D235A4E71B726B4600AA65E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D235A4DA1B726B4600AA65E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D235A4DB1B726B4600AA65E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D235A4DF1B726B4600AA65E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D235A4E01B726B4600AA65E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D235A4EE1B726B4600AA65E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D235A4EF1B726B4600AA65E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D235A4F11B726B4600AA65E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ClanManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D235A4F21B726B4600AA65E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ClanManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D235A4F41B726B4600AA65E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClanManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClanManager.app/ClanManager";
+			};
+			name = Debug;
+		};
+		D235A4F51B726B4600AA65E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClanManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClanManager.app/ClanManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D235A4C81B726B4600AA65E7 /* Build configuration list for PBXProject "ClanManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D235A4EE1B726B4600AA65E7 /* Debug */,
+				D235A4EF1B726B4600AA65E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D235A4F01B726B4600AA65E7 /* Build configuration list for PBXNativeTarget "ClanManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D235A4F11B726B4600AA65E7 /* Debug */,
+				D235A4F21B726B4600AA65E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D235A4F31B726B4600AA65E7 /* Build configuration list for PBXNativeTarget "ClanManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D235A4F41B726B4600AA65E7 /* Debug */,
+				D235A4F51B726B4600AA65E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D235A4C51B726B4600AA65E7 /* Project object */;
+}
